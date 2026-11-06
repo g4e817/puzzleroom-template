@@ -75,4 +75,37 @@ public class FieldTest {
         // Game should be finished after moving right twice
         assertTrue(gameBoard.isFinished());
     }
+
+
+    @Test
+    public void oneWayRightTest() throws Exception {
+        GameBoard gameBoard = new GameBoardImpl();
+
+        new CommandLoad(new String[]{
+                "src/test/resources/oneWayRight.maze"
+        }).execute(gameBoard);
+
+        Player player = gameBoard.getPlayer();
+
+        // Move onto the arrow field
+        assertTrue(player.moveRight());
+        assertTrue(player.moveRight());
+
+        // Player is now standing on '>'
+        assertEquals(1, player.getRow());
+        assertEquals(3, player.getCol());
+
+        // Moving right must be allowed
+        boolean success = player.moveRight();
+        assertTrue(success);
+
+        // Player must be right of the arrow
+        assertEquals(1, player.getRow());
+        assertEquals(4, player.getCol());
+
+        // Three successful movements
+        assertEquals(3, player.getStepCount());
+    }
+
+
 }
