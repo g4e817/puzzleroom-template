@@ -41,6 +41,8 @@ public class GameBoardImpl implements GameBoard {
         }
     }
 
+    //TEST
+
     public void quit() {
         // Do not change the output here
         System.out.println("Goodbye!");
