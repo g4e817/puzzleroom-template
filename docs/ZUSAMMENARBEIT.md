@@ -17,3 +17,10 @@ Die Moodle-Gruppen **A, B und C** arbeiten jeweils in **zwei Zweierteams**. **Gr
 4. Öffnet einen Pull Request. Wählt als **base repository euren Gruppen-Fork** und als **base branch `main`**. Verknüpft das Issue in der PR-Beschreibung mit `Closes #4`, wenn euer Issue die Nummer 4 hat.
 5. Eine Person aus dem **anderen Arbeitsteam** liest Änderungen und Tests und hinterlässt ein Review. Eine hilfreiche Rückfrage wäre „Prüft euer Test auch die Position nach dem abgelehnten Zug?“
 6. Klärt Rückmeldungen. Sobald Review, Build und Tests erfolgreich sind, führt ihr den PR zusammen. Beide Teams aktualisieren danach ihr lokales `main`.
+
+## AUFGABE B
+Aufgabe B „Eisfeld“ wurde von Spoerki bearbeitet. Dabei wurden die Klasse FieldIce, die Zuordnung des Zeichens @ in der FieldFactory und zwei Tests für das Anhalten nach einer Eisstrecke beziehungsweise vor einer Wand ergänzt.
+
+Beim Pair Programming übernahm Spoerki zunächst die Driver-Rolle und Spoerki die Navigator-Rolle. Der Rollenwechsel erfolgte nicht.
+
+Das Review durch das andere Arbeitsteam ist ausständig. Aus dem Review wurde folgendes Feedback übernommen: "Wird ergänzt".

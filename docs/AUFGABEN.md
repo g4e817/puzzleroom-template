@@ -30,6 +30,8 @@ Ergänzt `FieldIce` für das Zeichen `@`. Betritt die Figur Eis, rutscht sie in 
 
 Prüft die Endposition. Ein Test, der nur eine erfolgreiche Bewegung prüft, würde ein um ein Feld zu frühes Anhalten übersehen.
 
+STATUS: iceStopsOnFirstPathAfterIce: Nach einmal move right in #o@@ x# steht die Figur auf dem freien Feld vor dem Ziel, in Zeile 1 und Spalte 4; der Schrittzähler beträgt 3. iceStopsOnLastIceBeforeWall: Nach einmal move right in #o@@#x# steht die Figur auf dem zweiten Eisfeld vor der Wand, in Zeile 1 und Spalte 3; der Schrittzähler beträgt 2. Beide Tests prüfen außerdem, dass das Ziel noch nicht erreicht wurde.
+
 ## C · Mehrere Züge mit fastmove
 
 Ergänzt `CommandFastmove` und registriert den Befehl `fastmove`. Die Argumente `u`, `d`, `l` und `r` stehen für oben, unten, links und rechts. Führt sie in der angegebenen Reihenfolge aus.
