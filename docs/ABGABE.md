@@ -17,3 +17,10 @@ Eine Person reicht für die gesamte Moodle-Gruppe einen GitHub-Release aus **eur
 3. Eine Person reicht in Moodle die **Gruppe**, **alle Mitglieder mit ihren GitHub-Benutzernamen**, **Fork-Link**, **Release-Link und Tag**, **vollständige Commit-ID**, **Link zum grünen CI-Lauf** und etwaige **offene Punkte** ein. Maßgeblich ist der letzte Release vor der angekündigten Frist.
 
 Für das Abgabegespräch sollte jede Person ihren Beitrag am eigenen Code erklären, einen Test mit seiner Erwartung zeigen und eine Frage zum Review beantworten können.
+
+Spoerki 
+
+
+B · Eisfeld: Implementierung von FieldIce, Registrierung des Zeichens @ in der FieldFactory und zwei JUnit-Tests für das Rutschverhalten.
+
+Issue URL: https://github.com/kemranaliew/puzzleroom-gruppe-b/issues/12
